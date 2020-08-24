@@ -117,7 +117,7 @@ function initBotConversation() {
                             // Use the following activity to proactively invoke a bot scenario
                             
                             triggeredScenario: {
-                                trigger: "Extend_triage_with_handoff_copy",
+                                trigger: "Extend_triage_with_handoff",
                                 args: {
                                     myVar1: "{custom_arg_1}",
                                     myVar2: "{custom_arg_2}"
