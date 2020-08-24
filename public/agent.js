@@ -13,8 +13,8 @@ logon_form.onsubmit = e => {
     document.querySelector(".invisible").classList.toggle("invisible");
 
     chatRequested({
-        userId: "112",
-        userName: "Hariharan",
+        userId: user_id.value,
+        userName: user_name.value,
         agent: true
     });
 };
